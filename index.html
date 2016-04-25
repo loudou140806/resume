@@ -1,280 +1,236 @@
-﻿<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="keywords" content="web前端，web前端个人简历，前端开发" />
-    <meta name="description" content="漏鸣杰的web前端工程师个人简历">
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/jquery.fullPage.css" />
-	<link rel="stylesheet" href="css/component.css" />
-	<link rel="stylesheet" href="css/index.css" />
-	<title>web前端工程师简历</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;Chorme=1">
+	<meta name="keywords" content="web, web前端, web前端开发, 前端开发, 简历, web前端开发简历">
+	<meta name="description" content="漏鸣杰的web前端工程师个人简历">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- for html5 in ie -->
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<title>漏鸣杰的前端工程师简历</title>
+	<!-- [if lt IE 9]> 
+	<script type="text/javascript" src="js/PIE_IE678.js"></script>
+	<![endif]  -->
 </head>
 <body>
-<!-- header navigation -->
-<header>
-	<div id="logo">
-		<div id="header_img"><img src="image/logo.jpg" alt="" /></div>
-		<div id="header_p">
-			<p id="header_p1">Frank</p>
-			<p id="header_p2">个人简历</p>
+	<!-- header -->
+	<header>
+		<div class="over">
 		</div>
-	</div>
-	<nav>
-		<ul>
-			<li><a href="">首页</a></li>
-			<li><a href="http://loumingjie.cn/myblog">博客</a></li>
-			<li><a href="http://loumingjie.cn/myblog/works.html">小作品</a></li>
-		</ul>
-	</nav>
-</header>
-<!-- header navigation end -->
-<!-- aside navigation -->
-<aside>
+		<div id="logo">
+			<div id="header_img"><img src="image/logo.jpg"></div>	
+			<div id="header_p">
+				<p id="head_p1">Frank</p>
+				<p id="head_p2">个人简历</p>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#" title="">首页</a></li>
+					<li><a href="http://loumignjie.cn/myblog" title="">博客</a></li>
+					<li><a href="http://loumignjie.cn/myblog/works.html" title="">小作品</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- aside -->
+	<aside>
 		<a href="#page1"><b>首页</b></a>
 		<a href="#page2"><b>关于我</b></a>
-		<a href="#page3"><b>专业技能</b></a>
+		<a href="#page3"><b>我的技能</b></a>
 		<a href="#page4"><b>我的作品</b></a>
 		<a href="#page5"><b>联系我</b></a>
-</aside>
-<!-- aside navigation end -->
-<!-- home page -->
-<div id="dowebok">
-	<!-- home -->
-	<div class="section one">
-		<div id="home">
-			<div id="home_content">
-				<div id="home_head">
-					<div id="home_head_content">
-						<img src="image/photo1.jpg" id="home_photo1" alt="" />
-						<img src="image/photo2.jpg" id="home_photo2" alt="" />
+	</aside>
+	<div id="fullPage">
+		<!-- 首页 -->
+		<div class="section" id="one">
+			<div class="section_wrap">
+				<div id="home">
+					<div id="home_title">
+						<img class="photo1" src="image/photo1.jpg">
 					</div>
-				</div>
-				<div id="home_info">
-					<p id="home_info1">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵。</p>
-					<div id="home_info_box">
-						<p id="home_info2">我叫漏鸣杰</p>
-						<p id="home_info3">24岁</p>
-						<p id="home_info4"><a href="https://github.com/loudou140806" title="">github：loudou140806</a></p>
-						<p id="home_info5">email: 546587684@qq.com</p>
-                        <p id="home_info6">tel: 15257106421</p>
+					<div id="home_info">
+						<h2>临渊羡鱼不如退而结网</h2>
+						<div id="home_info_p">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- home end -->
-	<!-- about -->
-	<div class="section two">
-		<div id="about">
-			<div id="about_content">
-				<div class="title">
-					<h1>关于我</h1>
-				</div>
-				<div id="about_list_content">
-					<div class="about_list" id="about_list1">
-						<div class="about_list_eg" id="about_en_edu">education</div>
-						<div class="about_list_cn" id="about_cn_edu">学历<p>硕士</p></div>
+		<!-- aboout me -->
+		<div class="section" id="two">
+			<div class="section_wrap">
+				<div id="about">
+					<div class="title">
+						<h1>关于我</h1>
+						<div class="bottom_line"></div>
+						<h2>· about me ·</h2>
 					</div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_age">age</div>
-                        <div class="about_list_cn" id="about_cn_age">年龄<p>24岁</p></div>
-                    </div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_loc">location</div>
-                        <div class="about_list_cn" id="about_cn_loc">坐标<p>杭州</p></div>
-                    </div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_sta">status</div>
-                        <div class="about_list_cn" id="about_cn_sta">状态<p>在读</p></div>
-                    </div>
-				</div>
-				<div id="about_info"></div>
-			</div>
-		</div>
-	</div>
-    <!-- about end -->
-    <!-- skill -->
-    <div class="section three">
-		<div id="skill">
-			<div id="skill_content">
-				<div class="title">
-					<h1>专业技能</h1>
-				</div>
-				<div id="skill_info"></div>
-                <div id="skill_list">
-                    <div class="skill_list_content" id="skill_list2">
-                        <div class="skill_icon" id="skill_icon2"></div>
-                        <div class="skill_name">HTML</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int2"></div>
-                    </div>
-                    <div class="skill_list_content" id="skill_list3">
-                        <div class="skill_icon" id="skill_icon3"></div>
-                        <div class="skill_name">CSS</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int3"></div>
-                    </div>
-                    <div class="skill_list_content" id="skill_list4">
-                        <div class="skill_icon" id="skill_icon4"></div>
-                        <div class="skill_name">JavaScript</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- skill end -->
-    <!-- demo -->
-    <div class="section five">
-    	<div id="demo">
-        	<div id="demo_content">
-            	<div class="title">
-                	<h1>我的作品</h1>
-                </div>
-                <div id="demo_content_list">
-                    <ul class="demo_box">
-                    	<li class="demo_scale">
-                            <div class="demo_box_content">
-                            	<div class="demo_box_hover">
-                                    <p class="demo_box_title">fleastreet跳蚤街</p>
-                                    <span class="demo_box_hover_icon">
-                                        <a href="http://loumingjie.cn/myblog/works/fleastreet/" target="_blank" class="demo_box_link">
-                                            <img src="image/demo-link.png" alt="" />
-                                        </a>
-                                    </span>
-                                </div>
-                                <img src="image/flea.png" alt="" class="demo_box_bg"/>
-                            </div>
-                        </li>
-                        <li class="demo_scale">
-                            <div class="demo_box_content">
-                                <div class="demo_box_hover">
-                                    <p class="demo_box_title">腾讯微云</p>
-									<span class="demo_box_hover_icon">
-										<a href="http://loumingjie.cn/myblog/works/microcloud/" target="_blank" class="demo_box_link">
-											<img src="image/demo-link.png" alt="" />
-										</a>
-									</span>
+					<div id="about_content">
+						<ul>
+							<li id="about_edu">
+								<div class="pic"></div>
+								<div class="des">
+									<p class="top">学历</p>
+									<p class="bottom">硕士</p>
 								</div>
-								<img src="image/microcloud.png" alt="" class="demo_box_bg"/>
-							</div>
-                        </li>
-                        <li class="demo_scale">
-							<div class="demo_box_content">
-                            	<div class="demo_box_hover">
-									<p class="demo_box_title">坚果手机官网特效</p>
-                                    <span class="demo_box_hover_icon">
-                                    	<a href="http://loumingjie.cn/myblog/works/music/" target="_blank" class="demo_box_link">
-											<img src="image/demo-link.png" alt="" />
-                                        </a>
-                                    </span>
-                                </div>
-								<img src="image/music.png" alt="" class="demo_box_bg"/>
-                            </div>
-                        </li>
-                        <li class="demo_scale">
-							<div class="demo_box_content">
-                            	<div class="demo_box_hover">
-                                	<p class="demo_box_title">商城主页</p>
-                                    <span class="demo_box_hover_icon">
-                                    	<a href="http://loumingjie.cn/myblog/works/100du/" target="_blank" class="demo_box_link">
-											<img src="image/demo-link.png" alt="" />
-                                        </a>
-                                    </span>
-                                </div>
-								<img src="image/100du.png" alt="" class="demo_box_bg"/>
-                            </div>
-                        </li>
-                    </ul>
-				</div> 
-                <div id="demo_info" class="demo_scale">
-                    <p>这是我的部分demo。</p>
-                    <p>更多demo请移步<a href="http://loumingjie.cn/myblog/works.html" class="md-trigger" data-modal="modal-3">这里</a>。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- demo end -->
-    <!-- contact -->
-	<div class="section six">
-		<div id="contact">
-			<div id="contact_content">
-				<div class="title">
-					<h1>联系我</h1>
+							</li>
+							<li id="about_age">
+								<div class="pic"></div>
+								<div class="des">
+									<p class="top">年龄</p>
+									<p class="bottom">24岁</p>
+								</div>
+							</li>
+							<li id="about_loc">
+								<div class="pic"></div>
+								<div class="des">
+									<p class="top">坐标</p>
+									<p class="bottom">杭州</p>
+								</div>
+							</li>
+							<li id="about_state">
+								<div class="pic"></div>
+								<div class="des">
+									<p class="top">状态</p>
+									<p class="bottom">在读</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div id="about_info">
+						
+					</div>
 				</div>
-                <div id="contact_head">
-					<div id="contact_head1">灵感 代码 梦想 未来</div>
-                    <div id="contact_head2">
-                    	<span>inspiration</span>
-                        <span>code</span>
-                        <span>dream</span>
-                        <span>future</span>
-                    </div>
-                </div>
-                <div id="contact_info" class="contact_scale">
-                </div>
-                <div id="contact_way">
-					<div id="contact_message1" class="contact_message contact_scale">留言</div>
-                    <div id="contact_form">
-                        <form action="1.php" method="post">
-                            <ul>
-                                <li><input type="text" name="text" id="contact_name" placeholder="请输入姓名" /></li>
-                                <li><input type="email" name="email" id="contact_email" placeholder="请输入邮箱" /></li>
-                                <li><textarea placeholder="请多多指教"></textarea></li>
-                                <li><a href="#" id="contact_submit">提交</a></li>
-                            </ul>
-                        </form> 
-                    </div>
-                    <div id="contact_message2" class="contact_message">谢谢</div>
-                </div>
-            </div>
+			</div>
+		</div>
+		<!-- skill -->
+		<div class="section " id="three">
+			<div class="section_wrap">
+				<div id="skill">
+					<div class="title">
+						<h1>专业技能</h1>
+						<div class="bottom_line"></div>
+						<h2>· skill ·</h2>
+					</div>
+					<div id="skill_content">
+						
+					</div>
+					<div id="skill_info">
+						<div id="skill_info_html">
+							<div class="skill_info_pic"></div>
+							<div class="skill_info_dec">HTML</div>
+							<div class="skill_info_arrow"></div>
+							<div class="skill_info_content">
+								<ul id="skill_html">
+									
+								</ul>
+							</div>
+						</div>
+						<div id="skill_info_css">
+							<div class="skill_info_pic"></div>
+							<div class="skill_info_dec">CSS</div>
+							<div class="skill_info_arrow"></div>
+							<div class="skill_info_content">
+								<ul id="skill_css">
+									
+								</ul>
+							</div>
+						</div>
+						<div id="skill_info_js">
+							<div class="skill_info_pic"></div>
+							<div class="skill_info_dec">javaScript</div>
+							<div class="skill_info_arrow"></div>
+							<div class="skill_info_content">
+								<ul id="skill_js">
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- work -->
+		<div class="section " id="four">
+			<div class="section_wrap">
+				<div id="work">
+					<div class="title">
+						<h1>我的作品</h1>
+						<div class="bottom_line"></div>
+						<h2>· Demo ·</h2>
+					</div>
+					<div id="work_content">
+						<div id="demo_list" class="clearfix">
+							<div class="demo_item item1">
+								<img src="image/100du.png">
+								<div class="over_layer"></div>
+								<span>100du商城首页</span>
+								<i></i>
+							</div>
+							<div class="demo_item item2">
+								<img src="image/flea.png">
+								<div class="over_layer"></div>
+								<span>fleastreet跳蚤街</span>
+								<i></i>
+							</div>
+							<div class="demo_item item3">
+								<img src="image/microcloud.png">
+								<div class="over_layer"></div>
+								<span>腾讯微云</span>
+								<i></i>
+							</div>
+							<div class="demo_item item4">
+								<img src="image/music.png">
+								<div class="over_layer"></div>
+								<span>锤子手机官网特效</span>
+								<i></i>
+							</div>
+						</div>
+					</div>
+					<div id="work_info" class="demo_item">
+						<p>这里是部分demo。</p>
+						<p>更多demo请移步到<a href="http://loumingjie.cn/myblog/works.html">这里</a>。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- contact -->
+		<div class="section " id="five">
+			<div class="section_wrap">
+				<div id="contact">
+					<div class="title">
+						<h1>联系我</h1>
+						<div class="bottom_line"></div>
+						<h2>· contact me ·</h2>
+					</div>
+					<div id="contact_content">
+						<div class="ch">
+							<span>灵感</span>
+							<span>代码</span>
+							<span>梦想</span>
+							<span>未来</span>
+						</div>
+						<div class="en">
+							<span>INSPIRATION</span>
+							<span>CODE</span>
+							<span>DREAM</span>
+							<span>FUTURE</span>
+						</div>
+					</div>
+					<div id="contact_info"></div>
+				</div>
+			</div>
             <footer class="contact_scale">
 				<div class="contact_scale footer"><a href="https://segmentfault.com/u/loudou" target="_blank">segmentfault</a>|<a href="http://weibo.com/u/2391737244" target="_blank">微博</a>|<a href="https://www.zhihu.com/people/lou-ming-jie" target="_blank">知乎</a>|<a href="https://www.douban.com/people/127141355/" target="_blank">豆瓣</a>|<a href="https://github.com/loudou140806" target="_blank">Github</a></div>
 				<div class="contact_scale footer">All Rights Reserved&nbsp;</div>
 			</footer>
-        </div>
-	</div>
-    <!-- contact end -->
-</div>
-<!-- home page end -->
-<!-- pop layer -->
-<div class="md-modal md-effect-11" id="modal-1">
-	<div class="md-content">
-		<h3>小黄人O(∩_∩)O~</h3>
-		<div>
-			<img src="image/Minions.jpg" alt="" />
-			<button class="md-close">明白了</button>
 		</div>
 	</div>
-</div>
-<div class="md-modal md-effect-13" id="modal-2">
-	<div class="md-content">
-		<h3>学习路线</h3>
-		<div class="modal-learn">
-           	<p>学习用到的书籍</p>
-            <ul>
-            	<li>《SEO实战密码》</li>
-                <li>《html5+css3基础教程（第七版）》</li>
-                <li>《css网站布局实录》</li>
-                <li>《JavaScript DOM编程艺术（第二版）》</li>
-                <li>《锋利的jQuery（第二版）》</li>
-                <li>《JavaScript高级程序设计（第三版）》</li>
-                <li>《PHP和MySQL Web开发（第四版）》</li>
-            </ul>
-			<button class="md-close">明白了</button>
-		</div>
-	</div>
-</div>
-<!-- pop layer -->
+	<script src="js/resume.js"></script>
 </body>
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fullPage.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cssParser.js"></script>
-<script src="js/modalEffects.js"></script>
-<script src="js/index.js"></script>
 </html>
